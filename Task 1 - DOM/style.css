@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 250px;
+}
+button{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: white;
+}
+button:active{
+    color: white;
+    background-color: black;
+}
