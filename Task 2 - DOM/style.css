@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #10172b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+button:active{
+    scale: 0.95;
+}
